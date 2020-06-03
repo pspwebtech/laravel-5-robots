@@ -10,11 +10,17 @@ The purpose of this fork is to introduce Laravel 5 compatibility and PSR-4 and P
 
 Add the package to your `composer.json`:
 
-```
+```json
 {
     "require": {
         "pspwebtech/laravel-5-robots": "~0.1.0"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/pspwebtech/laravel-5-robots.git"
+        }
+    ]
 }
 ```
 
@@ -37,6 +43,8 @@ You can also optionally add the following to the `aliases` array:
 Add the following to your routes file:
 
 ```php
+<?php
+
 Route::get('robots.txt', function ()
 {
     if (App::environment() == 'production') {
