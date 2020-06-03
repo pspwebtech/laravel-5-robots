@@ -1,16 +1,8 @@
 # robots.txt Generator for Laravel 5
 
-[![Current Release](https://img.shields.io/github/release/ellisthedev/laravel-5-robots.svg)](https://github.com/ellisthedev/laravel-5-robots/releases)
-[![Total Downloads](https://img.shields.io/packagist/dt/ellisthedev/laravel-5-robots.svg)](https://packagist.org/packages/ellisthedev/laravel-5-robots)
-[![Build Status](https://travis-ci.org/ellisthedev/laravel-5-robots.svg?branch=master)](https://travis-ci.org/ellisthedev/laravel-5-robots)
-[![Code Climate](https://codeclimate.com/github/ellisthedev/laravel-5-robots/badges/gpa.svg)](https://codeclimate.com/github/ellisthedev/laravel-5-robots)
-[![Test Coverage](https://codeclimate.com/github/ellisthedev/laravel-5-robots/badges/coverage.svg)](https://codeclimate.com/github/ellisthedev/laravel-5-robots)
+(backup copy of `ellisthedev/laravel-5-robots`)
 
-This is a fork of https://github.com/jayhealey/Robots. It appears development
-has stalled on the original repository.
-
-The purpose of this fork is to introduce Laravel 5 compatibility and PSR-4 and
-PSR-2 (for Laravel 5.1).
+The purpose of this fork is to introduce Laravel 5 compatibility and PSR-4 and PSR-2 (for Laravel 5.1).
 
 # Installation
 
@@ -21,7 +13,7 @@ Add the package to your `composer.json`:
 ```
 {
     "require": {
-        "ellisthedev/laravel-5-robots": "~0.1.0"
+        "pspwebtech/laravel-5-robots": "~0.1.0"
     }
 }
 ```
